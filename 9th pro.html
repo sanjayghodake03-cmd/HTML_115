@@ -1,0 +1,60 @@
+<html>
+  <head>
+  <title>Registration Form</title>
+  <style>
+    .form-box {
+      width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color:white;
+    }
+  </style>
+</head>
+  <body>
+      <div class="form-box">
+   
+    <form onsubmit="return showMessage()">
+      <h2 style="text-align:center;">Student Registration Form</h2>
+      <label for="First name:">First name:</label><br>
+      <input type="text" id="First name" name="First name"><br><br>
+      <label for="Middle name">Middle name</label><br>
+      <input type="text" id="Middle name" name="Middle name"><br><br>
+      <label for="Last name">Last name</label><br>
+      <input type="text" id="Last name" name="Last name"><br><br>
+      <label>Gender</label><br>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label><br><br>
+      <input type="radio" id="female" name="gender" value="FeMale">
+      <label for="female">Female</label><br><br>
+      <label >Contact number</label><br>
+      <input type="text" id="contact number" name="Contact number"><br><br>
+      <label >Address</label><br>
+      <input type="address" id="address" name="Address" rows="4" columns="5"><br><br>
+      <label for="branch">Branch</label><br>
+      <select id="branch" name="branch">
+        <option value="select">Select</option>
+      <option value="CSE">Computer Science</option>
+      <option value="CSE">Computer Science(AIML)</option>
+      <option value="CSE">Computer Science(Data Science)</option>
+      <option value="ENTC">Electronics</option>
+      <option value="CIVIL">Civil</option>
+      <option value="Chemical">Chemical</option>
+      </select><br><br>
+       <label>Technical Skills:</label><br>
+      <input type="checkbox" id="c" name="skills" value="C">
+      <label for="c">C</label><br>
+      <input type="checkbox" id="c++" name="skills" value="C++">
+      <label for="c++">C++</label><br>
+      <input type="checkbox" id="java" name="skills" value="Java">
+      <label for="java">Java</label><br>
+      <input type="checkbox" id="python" name="skills" value="Python">
+      <label for="python">Python</label><br>
+      <input type="checkbox" id="dsa" name="skills" value="DSA">
+      <label for="dsa">DSA</label><br><br>
+      <input type="submit" value="submit"><br>
+    </form>
+    </div>
+  </body>
+</html>
