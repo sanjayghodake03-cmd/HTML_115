@@ -1,0 +1,20 @@
+﻿<class>
+  <student rollno="393">
+    <firstname>Sanika</firstname>
+    <lastname>Ghodake</lastname>
+    <nickname>san</nickname>
+    <marks>85</marks>
+  </student>
+  <student rollno="193">
+    <firstname>rahult</firstname>
+    <lastname>patil</lastname>
+    <nickname>chiku</nickname>
+    <marks>95</marks>
+  </student>
+  <student rollno="133">
+    <firstname>Jasvir</firstname>
+    <lastname>Shinde</lastname>
+    <nickname>Jazz</nickname>
+    <marks>90</marks>
+  </student>
+</class>
