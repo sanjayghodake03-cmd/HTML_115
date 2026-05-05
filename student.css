@@ -23,12 +23,12 @@ name, age, course {
 
 name {
     font-weight: bold;
-    color: darkblue;
+    color: green;
     font-size: 18px;
 }
 
 age {
-    color: green;
+    color: darkblue;
 }
 
 course {
