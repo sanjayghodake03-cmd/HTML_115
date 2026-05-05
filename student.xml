@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<students>
+  <student>
+    <rollno>109</rollno>
+    <name>Apurva</name>
+    <course>Computer</course>
+  </student>
+  <student>
+    <rollno>102</rollno>
+    <name>sanika</name>
+    <course>IT</course>
+  </student>
+</students>
